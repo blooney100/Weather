@@ -7,7 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" HorizontalAlignment="Right" Width="1920">
+        <WebView HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="Cancel" Content="Cancel" HorizontalAlignment="Left" Height="100" Margin="1730,922,0,0" VerticalAlignment="Top" Width="100"/>
+        <WebView x:Name="WeatherMainWeb" HorizontalAlignment="Left" Height="164.431" VerticalAlignment="Top" Width="178.031" RenderTransformOrigin="0.5,0.5" Margin="0.655,-0.81,0,0" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            
+        </WebView>
 
     </Grid>
 </Page>
